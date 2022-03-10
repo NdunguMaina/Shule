@@ -1,0 +1,98 @@
+body{
+   background-color:#a4b0be;
+}
+
+#logo1{
+width: 200px;
+border-radius: 50px;
+padding: 10px;
+}
+.nav{
+   background-color: #95a5a6;
+   border-radius: 20px;
+   display:block;
+
+}
+#sign_in_button{
+
+  float: right;
+  border: 0;
+  background:none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: rgb(27, 20, 20);
+  background-color:#2e6dcc ;
+  border-radius:24px;
+  transition:0.5s;
+  text-transform:capitalize;
+}
+#sign_in_button:hover{
+
+   width:280px;
+   border-color:#2ecc71 ;
+   
+}
+.title{
+   width:40vw;
+   padding-left:3vw;
+}
+.glass{
+   background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* /* .p{
+   display: flex;
+   float: right; 
+} */
+.schoolkids{
+   display: flex; 
+   justify-content: flex-end;
+}
+
+
+
+.imgkids{
+   width: 45vw;
+  
+}
+.fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+ }
+ 
+ .fa:hover {
+     opacity: 0.7;
+ }
+ 
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+ }
+ 
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+ }
+ .fa-linkedin {
+   background: #007bb5;
+   color: white;
+ }
+ .footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }
